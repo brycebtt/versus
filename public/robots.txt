@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /price-calculator-1325qye
+
+Sitemap: https://www.vssportswear.com/sitemap.xml

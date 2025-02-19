@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="noindex, nofollow, nosnippet" />
+
+        <title>Versus Price Calculator</title>
+
+        <link rel="stylesheet" href="styles.css" />
+        <script defer src="main.js"></script>
+    </head>
+    <body>
+        <main>
+            <header><h1>Versus Pricing Calculator</h1></header>
+            <nav id="categories">
+                <h3>Select a product category</h3>
+                <div class="btn-group"></div>
+            </nav>
+            <section id="products" class="">
+                <h3 id="product-intro">Select a product</h3>
+                <div id="product-list"></div>
+            </section>
+        </main>
+
+        <!-- Cart Drawer -->
+        <aside id="cart" class="">
+            <header>
+                <h2>Your Quote</h2>
+                <div id="copy-container-placeholder"></div>
+            </header>
+            <div id="empty-cart">No Items In Cart</div>
+            <div id="cart-items"></div>
+        </aside>
+
+        <div id="copy-container">
+            <button id="copy-text-btn" disabled>
+                <img src="images/dropdown-arrow2.svg" />
+                <p>Copy</p>
+            </button>
+
+            <div id="copy-dropdown">
+                <button id="copy-customer-btn">
+                    <img src="images/contact.svg" />Customer Copy
+                </button>
+                <button id="copy-business-btn">
+                    <img src="images/building.svg" />Internal Copy
+                </button>
+            </div>
+        </div>
+
+        <footer>
+            <div class="summary-section">
+                <span>Total Package Price:</span>
+                <div class="summary-num">
+                    <span>$</span><span id="total-price">0</span>
+                </div>
+                <div class="cart-price-discounts">
+                    <button class="discount-btn">-15%</button>
+                    <button class="discount-btn">-10%</button>
+                    <button class="discount-btn">-5%</button>
+                </div>
+            </div>
+            <div class="summary-section">
+                <span>Net Profit Margin:</span>
+                <div class="summary-num">
+                    <span id="net-profit-margin">0</span><span>%</span>
+                </div>
+                <div class="margin-meter">
+                    <div class="low"></div>
+                    <div class="normal"></div>
+                    <div class="high"></div>
+                    <div class="indicator" id="indicator"></div>
+                </div>
+            </div>
+            <button id="cart-toggle">
+                <img src="images/cart-icon.svg" />
+            </button>
+        </footer>
+
+        <!-- Dim overlay for copy buttons -->
+        <div id="overlay"></div>
+
+        <!-- Feedback overlay -->
+        <div id="feedback-container">
+            <img src="images/checkmark.svg" />
+            <span id="feedback-message">Added to Cart</span>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,1431 @@
+{
+    "floorProfitMargin": 35,
+    "highProfitMargin": 65,
+    "categories": [
+        {
+            "id": "baseball",
+            "name": "Baseball",
+            "productIds": ["baseball-jersey", "baseball-pants", "hat", "bat-bag", "long-socks"],
+            "packages": [
+                {
+                    "id": "uniform",
+                    "name": "Baseball Uniform",
+                    "products": [
+                        {
+                            "quantity": 1,
+                            "productId": "baseball-jersey"
+                        },
+                        {
+                            "quantity": 1,
+                            "productId": "baseball-pants"
+                        }
+                    ]
+                },
+                {
+                    "id": "package-1",
+                    "name": "Baseball Package 1",
+                    "products": [
+                        {
+                            "quantity": 1,
+                            "productId": "baseball-jersey"
+                        },
+                        {
+                            "quantity": 1,
+                            "productId": "baseball-pants"
+                        },
+                        {
+                            "quantity": 1,
+                            "productId": "hat"
+                        }
+                    ]
+                },
+                {
+                    "id": "package-2",
+                    "name": "Baseball Package 2",
+                    "products": [
+                        {
+                            "quantity": 2,
+                            "productId": "baseball-jersey"
+                        },
+                        {
+                            "quantity": 1,
+                            "productId": "baseball-pants"
+                        },
+                        {
+                            "quantity": 1,
+                            "productId": "hat"
+                        }
+                    ]
+                },
+                {
+                    "id": "package-3",
+                    "name": "Baseball Package 3",
+                    "products": [
+                        {
+                            "quantity": 2,
+                            "productId": "baseball-jersey"
+                        },
+                        {
+                            "quantity": 2,
+                            "productId": "baseball-pants"
+                        },
+                        {
+                            "quantity": 1,
+                            "productId": "hat"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "softball",
+            "name": "Softball",
+            "productIds": ["softball-jersey", "softball-pants", "hat", "bat-bag", "long-socks"],
+            "packages": [
+                {
+                    "id": "uniform",
+                    "name": "Softball Uniform",
+                    "products": [
+                        {
+                            "quantity": 1,
+                            "productId": "softball-jersey"
+                        },
+                        {
+                            "quantity": 1,
+                            "productId": "softball-pants"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "football",
+            "name": "Football",
+            "productIds": [
+                "football-jersey",
+                "football-pants",
+                "duffle-bag",
+                "backpack",
+                "long-socks"
+            ],
+            "packages": [
+                {
+                    "id": "uniform",
+                    "name": "Football Uniform",
+                    "products": [
+                        {
+                            "quantity": 1,
+                            "productId": "football-jersey"
+                        },
+                        {
+                            "quantity": 1,
+                            "productId": "football-pants"
+                        }
+                    ]
+                },
+                {
+                    "id": "package-2",
+                    "name": "Football Package 2",
+                    "products": [
+                        {
+                            "quantity": 2,
+                            "productId": "football-jersey"
+                        },
+                        {
+                            "quantity": 1,
+                            "productId": "football-pants"
+                        }
+                    ]
+                },
+                {
+                    "id": "package-3",
+                    "name": "Football Package 3",
+                    "products": [
+                        {
+                            "quantity": 2,
+                            "productId": "football-jersey"
+                        },
+                        {
+                            "quantity": 2,
+                            "productId": "football-pants"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7v7",
+            "name": "7v7 Football",
+            "productIds": ["7v7-jersey", "7v7-shorts", "7v7-helmet", "backpack", "duffle-bag"],
+            "packages": [
+                {
+                    "id": "uniform",
+                    "name": "7v7 Uniform",
+                    "products": [
+                        {
+                            "quantity": 1,
+                            "productId": "7v7-jersey"
+                        },
+                        {
+                            "quantity": 1,
+                            "productId": "7v7-shorts"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cheer",
+            "name": "Cheer",
+            "productIds": [
+                "cheer-shell",
+                "cheer-skirt-bloomers",
+                "cheer-jacket",
+                "leggings",
+                "cheer-bag",
+                "bow",
+                "poms"
+            ],
+            "packages": [
+                {
+                    "id": "uniform",
+                    "name": "Cheer Uniform",
+                    "products": [
+                        {
+                            "quantity": 1,
+                            "productId": "cheer-shell"
+                        },
+                        {
+                            "quantity": 1,
+                            "productId": "cheer-skirt-bloomers"
+                        },
+                        {
+                            "quantity": 1,
+                            "productId": "bow"
+                        },
+                        {
+                            "quantity": 1,
+                            "productId": "poms"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "basketball",
+            "name": "Basketball",
+            "productIds": [
+                "basketball-jersey",
+                "basketball-shorts",
+                "shooter-shirt",
+                "warm-up-suit",
+                "backpack"
+            ],
+            "packages": [
+                {
+                    "id": "uniform",
+                    "name": "Basketball Uniform",
+                    "products": [
+                        {
+                            "quantity": 1,
+                            "productId": "basketball-jersey"
+                        },
+                        {
+                            "quantity": 1,
+                            "productId": "basketball-shorts"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "apparel",
+            "name": "Apparel",
+            "productIds": [
+                "hat",
+                "warm-up-suit",
+                "hoodie",
+                "short-sleeve-hoodie",
+                "sweatshirt",
+                "tshirt",
+                "ls-tshirt",
+                "tank-top",
+                "polo",
+                "backpack",
+                "duffle-bag",
+                "cheer-bag",
+                "bat-bag",
+                "long-socks"
+            ]
+        }
+    ],
+    "products": [
+        {
+            "id": "baseball-jersey",
+            "name": "Baseball Jersey",
+            "productionType": "factory",
+            "options": [
+                {
+                    "id": "jersey-style",
+                    "name": "Jersey Style",
+                    "type": "single-choice",
+                    "required": true,
+                    "choices": [
+                        {
+                            "id": "full-button",
+                            "label": "Full Button"
+                        },
+                        {
+                            "id": "pullover",
+                            "label": "Pullover"
+                        },
+                        {
+                            "id": "2-button",
+                            "label": "2-Button"
+                        }
+                    ]
+                },
+                {
+                    "id": "optional",
+                    "name": "Optional Jersey Selections",
+                    "type": "multiple-choice",
+                    "required": false,
+                    "choices": [
+                        {
+                            "id": "stitched",
+                            "label": "Stitched"
+                        }
+                    ]
+                }
+            ],
+            "factories": [
+                {
+                    "id": "factoryT",
+                    "name": "Factory T",
+                    "baseCost": 0,
+                    "basePrice": 0,
+                    "costOverrides": [
+                        {
+                            "optionId": "jersey-style",
+                            "choiceId": "full-button",
+                            "cost": 15,
+                            "price": 34.95
+                        },
+                        {
+                            "optionId": "jersey-style",
+                            "choiceId": "pullover",
+                            "cost": 13,
+                            "price": 29.95
+                        },
+                        {
+                            "optionId": "jersey-style",
+                            "choiceId": "2-button",
+                            "cost": 14,
+                            "price": 29.95
+                        },
+                        {
+                            "optionId": "optional",
+                            "choiceId": "stitched",
+                            "cost": 15,
+                            "price": 29.95
+                        }
+                    ]
+                },
+                {
+                    "id": "factoryE",
+                    "name": "Factory E",
+                    "baseCost": 0,
+                    "basePrice": 0,
+                    "costOverrides": [
+                        {
+                            "optionId": "jersey-style",
+                            "choiceId": "full-button",
+                            "cost": 13.5,
+                            "price": 29.95
+                        },
+                        {
+                            "optionId": "jersey-style",
+                            "choiceId": "pullover",
+                            "cost": 10,
+                            "price": 24.95
+                        },
+                        {
+                            "optionId": "jersey-style",
+                            "choiceId": "2-button",
+                            "cost": 12.5,
+                            "price": 24.95
+                        },
+                        {
+                            "optionId": "optional",
+                            "choiceId": "stitched",
+                            "cost": 15,
+                            "price": 29.95
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "baseball-pants",
+            "name": "Baseball Pants",
+            "productionType": "factory",
+            "options": [
+                {
+                    "id": "pants-style",
+                    "name": "Pants Style",
+                    "type": "single-choice",
+                    "required": true,
+                    "choices": [
+                        {
+                            "id": "long",
+                            "label": "Long"
+                        },
+                        {
+                            "id": "knickers",
+                            "label": "Knickers"
+                        }
+                    ]
+                }
+            ],
+            "factories": [
+                {
+                    "id": "factoryT",
+                    "name": "Factory T",
+                    "baseCost": 0,
+                    "basePrice": 0,
+                    "costOverrides": [
+                        {
+                            "optionId": "pants-style",
+                            "choiceId": "long",
+                            "cost": 20,
+                            "price": 44.95
+                        },
+                        {
+                            "optionId": "pants-style",
+                            "choiceId": "knickers",
+                            "cost": 20,
+                            "price": 44.95
+                        }
+                    ]
+                },
+                {
+                    "id": "factoryE",
+                    "name": "Factory E",
+                    "baseCost": 0,
+                    "basePrice": 0,
+                    "costOverrides": [
+                        {
+                            "optionId": "pants-style",
+                            "choiceId": "long",
+                            "cost": 15,
+                            "price": 34.95
+                        },
+                        {
+                            "optionId": "pants-style",
+                            "choiceId": "knickers",
+                            "cost": 14,
+                            "price": 29.95
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "softball-jersey",
+            "name": "Softball Jersey",
+            "productionType": "factory",
+            "options": [
+                {
+                    "id": "jersey-style",
+                    "name": "Jersey Style",
+                    "type": "single-choice",
+                    "required": true,
+                    "choices": [
+                        {
+                            "id": "full-button",
+                            "label": "Full Button"
+                        },
+                        {
+                            "id": "pullover",
+                            "label": "Pullover"
+                        },
+                        {
+                            "id": "2-button",
+                            "label": "2-Button"
+                        }
+                    ]
+                },
+                {
+                    "id": "optional",
+                    "name": "Optional Jersey Selections",
+                    "type": "multiple-choice",
+                    "required": false,
+                    "choices": [
+                        {
+                            "id": "stitched",
+                            "label": "Stitched"
+                        }
+                    ]
+                }
+            ],
+            "factories": [
+                {
+                    "id": "factoryT",
+                    "name": "Factory T",
+                    "baseCost": 0,
+                    "basePrice": 0,
+                    "costOverrides": [
+                        {
+                            "optionId": "jersey-style",
+                            "choiceId": "full-button",
+                            "cost": 15,
+                            "price": 34.95
+                        },
+                        {
+                            "optionId": "jersey-style",
+                            "choiceId": "pullover",
+                            "cost": 13,
+                            "price": 29.95
+                        },
+                        {
+                            "optionId": "jersey-style",
+                            "choiceId": "2-button",
+                            "cost": 14,
+                            "price": 29.95
+                        },
+                        {
+                            "optionId": "optional",
+                            "choiceId": "stitched",
+                            "cost": 15,
+                            "price": 29.95
+                        }
+                    ]
+                },
+                {
+                    "id": "factoryE",
+                    "name": "Factory E",
+                    "baseCost": 0,
+                    "basePrice": 0,
+                    "costOverrides": [
+                        {
+                            "optionId": "jersey-style",
+                            "choiceId": "full-button",
+                            "cost": 13.5,
+                            "price": 29.95
+                        },
+                        {
+                            "optionId": "jersey-style",
+                            "choiceId": "pullover",
+                            "cost": 10,
+                            "price": 24.95
+                        },
+                        {
+                            "optionId": "jersey-style",
+                            "choiceId": "2-button",
+                            "cost": 12.5,
+                            "price": 24.95
+                        },
+                        {
+                            "optionId": "optional",
+                            "choiceId": "stitched",
+                            "cost": 15,
+                            "price": 29.95
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "softball-pants",
+            "name": "Softball Pants",
+            "productionType": "factory",
+            "options": [
+                {
+                    "id": "pants-style",
+                    "name": "Pants Style",
+                    "type": "single-choice",
+                    "required": true,
+                    "choices": [
+                        {
+                            "id": "long",
+                            "label": "Long"
+                        },
+                        {
+                            "id": "knickers",
+                            "label": "Knickers"
+                        }
+                    ]
+                }
+            ],
+            "factories": [
+                {
+                    "id": "factoryT",
+                    "name": "Factory T",
+                    "baseCost": 0,
+                    "basePrice": 0,
+                    "costOverrides": [
+                        {
+                            "optionId": "pants-style",
+                            "choiceId": "long",
+                            "cost": 20,
+                            "price": 44.95
+                        },
+                        {
+                            "optionId": "pants-style",
+                            "choiceId": "knickers",
+                            "cost": 20,
+                            "price": 44.95
+                        }
+                    ]
+                },
+                {
+                    "id": "factoryE",
+                    "name": "Factory E",
+                    "baseCost": 0,
+                    "basePrice": 0,
+                    "costOverrides": [
+                        {
+                            "optionId": "pants-style",
+                            "choiceId": "long",
+                            "cost": 15,
+                            "price": 34.95
+                        },
+                        {
+                            "optionId": "pants-style",
+                            "choiceId": "knickers",
+                            "cost": 14,
+                            "price": 29.95
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "bat-bag",
+            "name": "Bat Bag",
+            "productionType": "factory",
+            "options": [],
+            "factories": [
+                {
+                    "id": "factoryE",
+                    "name": "Factory E",
+                    "baseCost": 36,
+                    "basePrice": 74.95,
+                    "costOverrides": []
+                }
+            ]
+        },
+        {
+            "id": "football-jersey",
+            "name": "Football Jersey",
+            "productionType": "factory",
+            "options": [
+                {
+                    "id": "jersey-style",
+                    "name": "Jersey Style",
+                    "type": "single-choice",
+                    "required": true,
+                    "choices": [
+                        {
+                            "id": "dye-sublimated",
+                            "label": "Dye Sublimated"
+                        },
+                        {
+                            "id": "tackle-twill",
+                            "label": "Tackle Twill"
+                        }
+                    ]
+                }
+            ],
+            "factories": [
+                {
+                    "id": "factoryE",
+                    "name": "Factory E",
+                    "baseCost": 0,
+                    "basePrice": 0,
+                    "costOverrides": [
+                        {
+                            "optionId": "jersey-style",
+                            "choiceId": "dye-sublimated",
+                            "cost": 16,
+                            "price": 34.95
+                        },
+                        {
+                            "optionId": "jersey-style",
+                            "choiceId": "tackle-twill",
+                            "cost": 21,
+                            "price": 44.95
+                        }
+                    ]
+                },
+                {
+                    "id": "factoryT",
+                    "name": "Factory T",
+                    "baseCost": 0,
+                    "basePrice": 0,
+                    "costOverrides": [
+                        {
+                            "optionId": "jersey-style",
+                            "choiceId": "dye-sublimated",
+                            "cost": 19,
+                            "price": 39.95
+                        },
+                        {
+                            "optionId": "jersey-style",
+                            "choiceId": "tackle-twill",
+                            "cost": 29,
+                            "price": 59.95
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "football-pants",
+            "name": "Football Pants",
+            "productionType": "factory",
+            "options": [],
+            "factories": [
+                {
+                    "id": "factoryE",
+                    "name": "Factory E",
+                    "baseCost": 18,
+                    "basePrice": 39.95,
+                    "costOverrides": []
+                },
+                {
+                    "id": "factoryT",
+                    "name": "Factory T",
+                    "baseCost": 19,
+                    "basePrice": 39.95,
+                    "costOverrides": []
+                }
+            ]
+        },
+        {
+            "id": "7v7-jersey",
+            "name": "7v7 Jersey",
+            "productionType": "factory",
+            "options": [
+                {
+                    "id": "jersey-material",
+                    "name": "Jersey Material",
+                    "type": "single-choice",
+                    "required": true,
+                    "choices": [
+                        {
+                            "id": "dri-fit",
+                            "label": "Dri-Fit"
+                        },
+                        {
+                            "id": "compression",
+                            "label": "Compression"
+                        }
+                    ]
+                }
+            ],
+            "factories": [
+                {
+                    "id": "factoryE",
+                    "name": "Factory E",
+                    "baseCost": 0,
+                    "basePrice": 0,
+                    "costOverrides": [
+                        {
+                            "optionId": "jersey-material",
+                            "choiceId": "drifit",
+                            "cost": 11,
+                            "price": 24.95
+                        },
+                        {
+                            "optionId": "jersey-material",
+                            "choiceId": "compression",
+                            "cost": 11,
+                            "price": 24.95
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7v7-shorts",
+            "name": "7v7 Shorts",
+            "productionType": "factory",
+            "options": [
+                {
+                    "id": "shorts-material",
+                    "name": "Shorts Material",
+                    "type": "single-choice",
+                    "required": true,
+                    "choices": [
+                        {
+                            "id": "dri-fit",
+                            "label": "Dri-Fit"
+                        },
+                        {
+                            "id": "compression",
+                            "label": "Compression"
+                        }
+                    ]
+                }
+            ],
+            "factories": [
+                {
+                    "id": "factoryE",
+                    "name": "Factory E",
+                    "baseCost": 0,
+                    "basePrice": 0,
+                    "costOverrides": [
+                        {
+                            "optionId": "shorts-material",
+                            "choiceId": "dri-fit",
+                            "cost": 11,
+                            "price": 24.95
+                        },
+                        {
+                            "optionId": "shorts-material",
+                            "choiceId": "compression",
+                            "cost": 10,
+                            "price": 24.95
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "7v7-helmet",
+            "name": "7v7 Helmet",
+            "productionType": "factory",
+            "options": [],
+            "factories": [
+                {
+                    "id": "factoryE",
+                    "name": "Factory E",
+                    "baseCost": 12,
+                    "basePrice": 24.95,
+                    "costOverrides": []
+                }
+            ]
+        },
+        {
+            "id": "basketball-jersey",
+            "name": "Basketball Jersey",
+            "productionType": "factory",
+            "options": [
+                {
+                    "id": "jersey-style",
+                    "name": "Jersey Style",
+                    "type": "single-choice",
+                    "required": true,
+                    "choices": [
+                        {
+                            "id": "single",
+                            "label": "Single"
+                        },
+                        {
+                            "id": "reversible",
+                            "label": "Reversible"
+                        }
+                    ]
+                }
+            ],
+            "factories": [
+                {
+                    "id": "factoryE",
+                    "name": "Factory E",
+                    "baseCost": 0,
+                    "basePrice": 0,
+                    "costOverrides": [
+                        {
+                            "optionId": "jersey-style",
+                            "choiceId": "single",
+                            "cost": 8,
+                            "price": 19.95
+                        },
+                        {
+                            "optionId": "jersey-style",
+                            "choiceId": "reversible",
+                            "cost": 16,
+                            "price": 34.95
+                        }
+                    ]
+                },
+                {
+                    "id": "factoryT",
+                    "name": "Factory T",
+                    "baseCost": 0,
+                    "basePrice": 0,
+                    "costOverrides": [
+                        {
+                            "optionId": "jersey-style",
+                            "choiceId": "single",
+                            "cost": 10.5,
+                            "price": 24.95
+                        },
+                        {
+                            "optionId": "jersey-style",
+                            "choiceId": "reversible",
+                            "cost": 18.5,
+                            "price": 39.95
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "basketball-shorts",
+            "name": "Basketball Shorts",
+            "productionType": "factory",
+            "options": [
+                {
+                    "id": "shorts-style",
+                    "name": "Shorts Style",
+                    "type": "single-choice",
+                    "required": true,
+                    "choices": [
+                        {
+                            "id": "single",
+                            "label": "Single"
+                        },
+                        {
+                            "id": "reversible",
+                            "label": "Reversible"
+                        }
+                    ]
+                }
+            ],
+            "factories": [
+                {
+                    "id": "factoryT",
+                    "name": "Factory T",
+                    "baseCost": 0,
+                    "basePrice": 0,
+                    "costOverrides": [
+                        {
+                            "optionId": "shorts-style",
+                            "choiceId": "single",
+                            "cost": 10.5,
+                            "price": 24.95
+                        },
+                        {
+                            "optionId": "shorts-style",
+                            "choiceId": "reversible",
+                            "cost": 18.5,
+                            "price": 39.95
+                        }
+                    ]
+                },
+                {
+                    "id": "factoryE",
+                    "name": "Factory E",
+                    "baseCost": 0,
+                    "basePrice": 0,
+                    "costOverrides": [
+                        {
+                            "optionId": "shorts-style",
+                            "choiceId": "single",
+                            "cost": 8,
+                            "price": 19.95
+                        },
+                        {
+                            "optionId": "shorts-style",
+                            "choiceId": "reversible",
+                            "cost": 15,
+                            "price": 34.95
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "shooter-shirt",
+            "name": "Shooter shirt",
+            "productionType": "factory",
+            "options": [],
+            "factories": [
+                {
+                    "id": "factoryT",
+                    "name": "Factory T",
+                    "baseCost": 11,
+                    "basePrice": 24.95,
+                    "costOverrides": []
+                },
+                {
+                    "id": "factoryE",
+                    "name": "Factory E",
+                    "baseCost": 12,
+                    "basePrice": 24.95,
+                    "costOverrides": []
+                }
+            ]
+        },
+        {
+            "id": "cheer-shell",
+            "name": "Cheer Shell",
+            "productionType": "factory",
+            "options": [
+                {
+                    "id": "optional",
+                    "name": "Optional Shell Selections",
+                    "type": "multiple-choice",
+                    "required": false,
+                    "choices": [
+                        {
+                            "id": "underliner",
+                            "label": "Underliner"
+                        }
+                    ]
+                }
+            ],
+            "factories": [
+                {
+                    "id": "cheerC",
+                    "name": "Cheer C",
+                    "baseCost": 22.8,
+                    "basePrice": 49.95,
+                    "costOverrides": [
+                        {
+                            "optionId": "optional",
+                            "choiceId": "underliner",
+                            "cost": 18.9,
+                            "price": 39.95
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cheer-skirt-bloomers",
+            "name": "Cheer Skirt and Bloomers",
+            "productionType": "factory",
+            "options": [],
+            "factories": [
+                {
+                    "id": "cheerC",
+                    "name": "Cheer C",
+                    "baseCost": 23.8,
+                    "basePrice": 49.95,
+                    "costOverrides": []
+                }
+            ]
+        },
+        {
+            "id": "leggings",
+            "name": "Leggings",
+            "productionType": "factory",
+            "options": [],
+            "factories": [
+                {
+                    "id": "cheerC",
+                    "name": "Cheer C",
+                    "baseCost": 16.3,
+                    "basePrice": 34.95,
+                    "costOverrides": []
+                }
+            ]
+        },
+        {
+            "id": "cheer-jacket",
+            "name": "Cheer Jacket",
+            "productionType": "factory",
+            "options": [],
+            "factories": [
+                {
+                    "id": "cheerC",
+                    "name": "Cheer C",
+                    "baseCost": 33,
+                    "basePrice": 69.95,
+                    "costOverrides": []
+                }
+            ]
+        },
+        {
+            "id": "bow",
+            "name": "Bow",
+            "productionType": "factory",
+            "options": [],
+            "factories": [
+                {
+                    "id": "cheerC",
+                    "name": "Cheer C",
+                    "baseCost": 5.9,
+                    "basePrice": 14.95,
+                    "costOverrides": []
+                }
+            ]
+        },
+        {
+            "id": "poms",
+            "name": "Poms",
+            "productionType": "factory",
+            "options": [],
+            "factories": [
+                {
+                    "id": "cheerC",
+                    "name": "Cheer C",
+                    "baseCost": 7.1,
+                    "basePrice": 14.95,
+                    "costOverrides": []
+                }
+            ]
+        },
+        {
+            "id": "hat",
+            "name": "Hat",
+            "productionType": "stock",
+            "options": [
+                {
+                    "id": "hat-style",
+                    "name": "Hat Style",
+                    "type": "single-choice",
+                    "required": true,
+                    "choices": [
+                        {
+                            "id": "champro-snap",
+                            "label": "Champro Snapback"
+                        },
+                        {
+                            "id": "richardson-212",
+                            "label": "Richardson 212"
+                        },
+                        {
+                            "id": "pts-20",
+                            "label": "PTS 20"
+                        },
+                        {
+                            "id": "pts-30",
+                            "label": "PTS 30"
+                        },
+                        {
+                            "id": "game",
+                            "label": "The Game"
+                        },
+                        {
+                            "id": "versus-fitted",
+                            "label": "Versus Fitted"
+                        },
+                        {
+                            "id": "visor",
+                            "label": "Visor"
+                        }
+                    ]
+                },
+                {
+                    "id": "embroidery",
+                    "name": "Embroidery Options",
+                    "type": "multiple-choice",
+                    "required": false,
+                    "choices": [
+                        {
+                            "id": "flat-front",
+                            "label": "Flat Front"
+                        },
+                        {
+                            "id": "flat-back",
+                            "label": "Flat Back"
+                        },
+                        {
+                            "id": "puff-front",
+                            "label": "Puff Front"
+                        },
+                        {
+                            "id": "puff-back",
+                            "label": "Puff Back"
+                        }
+                    ]
+                }
+            ],
+            "factories": [
+                {
+                    "id": "hat-supplier",
+                    "name": "Hat Supplier",
+                    "baseCost": 0,
+                    "basePrice": 0,
+                    "costOverrides": [
+                        {
+                            "optionId": "hat-style",
+                            "choiceId": "champro-snap",
+                            "cost": 4.95,
+                            "price": 14.95
+                        },
+                        {
+                            "optionId": "hat-style",
+                            "choiceId": "richardson-212",
+                            "cost": 5,
+                            "price": 14.95
+                        },
+                        {
+                            "optionId": "hat-style",
+                            "choiceId": "pts-20",
+                            "cost": 9.95,
+                            "price": 19.95
+                        },
+                        {
+                            "optionId": "hat-style",
+                            "choiceId": "pts-30",
+                            "cost": 9.95,
+                            "price": 19.95
+                        },
+                        {
+                            "optionId": "hat-style",
+                            "choiceId": "game",
+                            "cost": 14,
+                            "price": 29.95
+                        },
+                        {
+                            "optionId": "hat-style",
+                            "choiceId": "versus-fitted",
+                            "cost": 5,
+                            "price": 14.95
+                        },
+                        {
+                            "optionId": "hat-style",
+                            "choiceId": "visor",
+                            "cost": 2.95,
+                            "price": 9.95
+                        },
+                        {
+                            "optionId": "embroidery",
+                            "choiceId": "flat-front",
+                            "cost": 7,
+                            "price": 14.95
+                        },
+                        {
+                            "optionId": "embroidery",
+                            "choiceId": "flat-back",
+                            "cost": 4,
+                            "price": 9.95
+                        },
+                        {
+                            "optionId": "embroidery",
+                            "choiceId": "puff-front",
+                            "cost": 10,
+                            "price": 24.95
+                        },
+                        {
+                            "optionId": "embroidery",
+                            "choiceId": "puff-back",
+                            "cost": 5,
+                            "price": 14.95
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "hoodie",
+            "name": "Hoodie",
+            "productionType": "factory",
+            "options": [],
+            "factories": [
+                {
+                    "id": "factoryT",
+                    "name": "Factory T",
+                    "baseCost": 21,
+                    "basePrice": 44.95,
+                    "costOverrides": []
+                },
+                {
+                    "id": "factoryE",
+                    "name": "Factory E",
+                    "baseCost": 22,
+                    "basePrice": 44.95,
+                    "costOverrides": []
+                }
+            ]
+        },
+        {
+            "id": "short-sleeve-hoodie",
+            "name": "Short Sleeve Hoodie",
+            "productionType": "factory",
+            "options": [],
+            "factories": [
+                {
+                    "id": "factoryT",
+                    "name": "Factory T",
+                    "baseCost": 16.5,
+                    "basePrice": 34.95,
+                    "costOverrides": []
+                }
+            ]
+        },
+        {
+            "id": "warm-up-suit",
+            "name": "Warm Up Suit",
+            "productionType": "factory",
+            "options": [],
+            "factories": [
+                {
+                    "id": "factoryT",
+                    "name": "Factory T",
+                    "baseCost": 42,
+                    "basePrice": 84.95,
+                    "costOverrides": []
+                },
+                {
+                    "id": "factoryE",
+                    "name": "Factory E",
+                    "baseCost": 37.52,
+                    "basePrice": 74.95,
+                    "costOverrides": []
+                }
+            ]
+        },
+        {
+            "id": "sweatshirt",
+            "name": "Crewneck Sweatshirt",
+            "productionType": "factory",
+            "options": [],
+            "factories": [
+                {
+                    "id": "factoryT",
+                    "name": "Factory T",
+                    "baseCost": 19.5,
+                    "basePrice": 39.95,
+                    "costOverrides": []
+                }
+            ]
+        },
+        {
+            "id": "tshirt",
+            "name": "Dye-sub T-shirt",
+            "productionType": "factory",
+            "options": [],
+            "factories": [
+                {
+                    "id": "factoryT",
+                    "name": "Factory T",
+                    "baseCost": 11,
+                    "basePrice": 24.95,
+                    "costOverrides": []
+                },
+                {
+                    "id": "factoryE",
+                    "name": "Factory E",
+                    "baseCost": 11,
+                    "basePrice": 24.95,
+                    "costOverrides": []
+                }
+            ]
+        },
+        {
+            "id": "ls-tshirt",
+            "name": "Dye-sub LS T-shirt",
+            "productionType": "factory",
+            "options": [],
+            "factories": [
+                {
+                    "id": "factoryT",
+                    "name": "Factory T",
+                    "baseCost": 11,
+                    "basePrice": 24.95,
+                    "costOverrides": []
+                },
+                {
+                    "id": "factoryE",
+                    "name": "Factory E",
+                    "baseCost": 12,
+                    "basePrice": 24.95,
+                    "costOverrides": []
+                }
+            ]
+        },
+        {
+            "id": "tank-top",
+            "name": "Dye-sub Tank Top",
+            "productionType": "factory",
+            "options": [],
+            "factories": [
+                {
+                    "id": "factoryT",
+                    "name": "Factory T",
+                    "baseCost": 12,
+                    "basePrice": 24.95,
+                    "costOverrides": []
+                },
+                {
+                    "id": "factoryE",
+                    "name": "Factory E",
+                    "baseCost": 11,
+                    "basePrice": 24.95,
+                    "costOverrides": []
+                }
+            ]
+        },
+        {
+            "id": "polo",
+            "name": "Polo",
+            "productionType": "factory",
+            "options": [],
+            "factories": [
+                {
+                    "id": "factoryT",
+                    "name": "Factory T",
+                    "baseCost": 19,
+                    "basePrice": 39.95,
+                    "costOverrides": []
+                }
+            ]
+        },
+        {
+            "id": "backpack",
+            "name": "Backpack",
+            "productionType": "factory",
+            "options": [],
+            "factories": [
+                {
+                    "id": "factoryE",
+                    "name": "Factory E",
+                    "baseCost": 29,
+                    "basePrice": 59.95,
+                    "costOverrides": []
+                }
+            ]
+        },
+        {
+            "id": "duffle-bag",
+            "name": "Duffle Bag",
+            "productionType": "factory",
+            "options": [],
+            "factories": [
+                {
+                    "id": "factoryE",
+                    "name": "Factory E",
+                    "baseCost": 32,
+                    "basePrice": 64.95,
+                    "costOverrides": []
+                }
+            ]
+        },
+        {
+            "id": "cheer-bag",
+            "name": "Cheer Bag",
+            "productionType": "factory",
+            "options": [],
+            "factories": [
+                {
+                    "id": "factoryE",
+                    "name": "Factory E",
+                    "baseCost": 33,
+                    "basePrice": 69.95,
+                    "costOverrides": []
+                }
+            ]
+        },
+        {
+            "id": "long-socks",
+            "name": "Long Socks",
+            "productionType": "stock",
+            "options": [],
+            "factories": [
+                {
+                    "id": "epic",
+                    "name": "Epic",
+                    "baseCost": 2.99,
+                    "basePrice": 4.95,
+                    "costOverrides": []
+                }
+            ]
+        }
+    ]
+}
